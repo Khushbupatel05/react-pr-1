@@ -1,0 +1,17 @@
+import About from "./Components/About"
+import Header from "./Components/Header"
+import Home from "./Components/home"
+
+
+
+const App = () => {
+  return (
+    <div>
+      <Header/>
+      <Home />
+      <About/>
+    </div>
+  )
+}
+
+export default App
