@@ -24,7 +24,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  height: 60vh; 
+  height: 80vh; 
 }
 .home-content{
    padding-bottom: 160px;
@@ -38,4 +38,40 @@ header{
   color: #1f1f25;
   font-family: "Montserrat", sans-serif;
   
+}
+.sec-img{
+  width: 100%;
+}
+h2{
+
+  font-family: Poppins, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+.about-content{
+   margin-top: 60px;
+}
+.description{
+  color: #9fa0a0;
+  font-size: 19px;
+}
+.content{
+  color: #9fa0a0;
+}
+.data{
+  color: #717185;
+}
+.service{
+  background-color: #f8f9fc;
+}
+.card-body{
+    margin-top: 30px;
+    background: #f6f6f6;  
+    padding: 60px 45px;
+}
+.card-title{
+  color: #f9004d;
+}
+.card-text1{
+  color: black;
 }
