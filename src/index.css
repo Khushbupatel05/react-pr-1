@@ -179,3 +179,22 @@ h3{
     top: -17px;
     font-size: 40px;
 }
+.submit-btn{
+    background: #f9004d;
+    color: #fff;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.submit-btn:hover{
+  background: transparent;
+    color: #f9004d;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .1);
+    transition: all 0.3s linear;
+    transform: translateY(-5px);
+}
+.contact-img img{
+  width: 600px;
+}
+.contact-title{
+   font-size: 60px;
+}

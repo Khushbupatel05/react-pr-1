@@ -1,7 +1,7 @@
 import React from 'react'
 import Latestcard from './Latestcard';
 
-const Project = () => {
+const Portfolio = () => {
     let arr = [
         {
             img:"https://trydo.rainbowit.net/assets/images/portfolio/portfolio-1.jpg",
@@ -56,4 +56,4 @@ const Project = () => {
   )
 }
 
-export default Project;
+export default Portfolio;
