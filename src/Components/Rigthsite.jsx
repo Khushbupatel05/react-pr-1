@@ -11,7 +11,7 @@ const Rigthsite = () => {
           <div className=''>
             <div className="row">
               <div className="col-lg-12">
-                <ul className='d-flex gap-2 ps-0 fw-bold '>
+                <ul className='d-flex gap-3 ps-0 fw-bold '>
                   <li>Main skills</li>
                   <li>Awards</li>
                   <li>Experience</li>

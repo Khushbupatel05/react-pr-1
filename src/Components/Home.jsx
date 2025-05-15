@@ -9,7 +9,7 @@ const Home = () => {
                     <div className='col-lg-12'>
                         <div className='home-content d-flex  vh-100 flex-column justify-content-center '>
                             <span className='fs-6'>FREELANCE  DIGITAL  DESIGNER</span>
-                            <h1 class="title" className=' title fw-bold py-3'>Hello, I’m <span className='title-color'>Nancy</span> Welcome to <br /> my World.</h1>
+                            <h1 class="title" className=' title fw-bold py-3'>Hello, I’m <span className='title-color'>Nancy</span> <br /> Welcome to <br /> my World.</h1>
                         </div>
                     </div>
                 </div>
