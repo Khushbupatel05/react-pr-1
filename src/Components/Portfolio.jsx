@@ -4,35 +4,36 @@ import Latestcard from './Latestcard';
 const Portfolio = () => {
     let arr = [
         {
-            img:"https://trydo.rainbowit.net/assets/images/portfolio/portfolio-1.jpg",
+            img:"./public/Img/portfolio-1.jpg",
             title: "Development",
             desc: "Getting tickets to the big show"
         },
         {
-            img:"https://trydo.rainbowit.net/assets/images/portfolio/portfolio-2.jpg",
-            title: "",
-            desc: ""
+            img:"./public/Img/portfolio-2.jpg",
+            title: "Development",
+            desc: "Getting tickets to the big show"
         },
         {
-            img:"https://trydo.rainbowit.net/assets/images/portfolio/portfolio-3.jpg",
-            title: "",
-            desc: ""
+            img:"./public/Img/portfolio-3.jpg",
+            title: "Development",
+            desc: "Getting tickets to the big show"
         },
         {
-            img:"https://trydo.rainbowit.net/assets/images/portfolio/portfolio-9.jpg",
-            title: "",
-            desc: ""
+            img:"./public/Img/portfolio-4.jpg",
+            title: "Development",
+            desc: "Getting tickets to the big show"
         },
         {
-            img:"https://trydo.rainbowit.net/assets/images/portfolio/portfolio-5.jpg",
-            title: "",
-            desc: ""
+            img:"./public/Img/portfolio-3.jpg",
+            title: "Development",
+            desc: "Getting tickets to the big show"
         },
         {
-            img:"https://trydo.rainbowit.net/assets/images/portfolio/portfolio-4.jpg",
-            title: "",
-            desc: ""
+            img:"./public/Img/portfolio-4.jpg",
+            title: "Development",
+            desc: "Getting tickets to the big show"
         },
+       
           
   ]
   return (

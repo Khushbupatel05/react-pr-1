@@ -141,24 +141,7 @@ h2 {
 .service-text{
   color: #9fa0a0;
 }
-.project-content{
-    background-color: #f6004c;
-    background-image: linear-gradient(#f6004c 10%, #000);
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 5;
-    cursor: pointer;
-    opacity: 0;
-}
 
-.project-content:hover {
-  box-shadow: 0 10px 25px 10px rgba(0, 0, 0, .1);
-  transform: translateY(-5px);
-}
 .latestcard{
   font-size: 24px;
 }
@@ -197,4 +180,64 @@ h3{
 }
 .contact-title{
    font-size: 60px;
+}
+.portfolio-content{
+  min-height: 500px;
+}
+.testimonial-detail{
+    font-size: 36px;
+    line-height: 58px;
+    color: #18181b;
+    font-weight: 500;
+    padding: 0 9%;
+    margin-bottom: 0;
+    margin-top: -16px;
+    position: relative;
+    z-index: 2;
+}
+.testimonial-detail::before{
+    position: absolute;
+    width: 197px;
+    height: 100%;
+    left: 25%;
+    top: -50px;
+    background-image: url('./public/Img/image-1.jpg');
+    content: "";
+    opacity: 1;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.testimonial-detail::after{
+    position: absolute;
+    width: 197px;
+    height: 202px;
+    right: 25%;
+    bottom: -115px;
+    background-image: url('/assets/images/client/image-2.png');
+    content: "";
+    opacity: 1;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.thmb{
+   position: relative;
+    display: inline-block;
+    transform: scale(1.1);
+    object-fit: contain;
+    border-radius: 6px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .1);
+}
+.thmb:after {
+    width: 13px;
+    height: 13px;
+    opacity: 1;
+    background: #f9004d;
+    right: -8.5px;
+    top: -8.5px;
+    position: absolute;
+    content: "";
+    border-radius: 100%;
+}
+.testimonial-bg{
+  background-color: #f5f5f7;
 }

@@ -15,6 +15,7 @@ const Header = () => {
                       <li className='nav'>About</li>
                       <li className='nav'>Service</li>
                       <li className='nav'>Portfolio</li>
+                      <li className='nav'>Testimonial</li>
                       <li className='nav'>Blog</li>
                       <li className='nav'>Contact</li>
                     </ul>

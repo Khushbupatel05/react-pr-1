@@ -5,6 +5,7 @@ import Header from "./Components/Header"
 import Home from "./Components/home"
 import Portfolio from "./Components/Portfolio"
 import Services from "./Components/services"
+import Testimonial from "./Components/Testimonial"
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
       <Services />
       <Portfolio/>
       <Counter/>
+      <Testimonial/>
       <Contact />
 
     </div>
