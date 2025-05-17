@@ -28,7 +28,7 @@ const Header = () => {
                   <li className='icon'><i class="bi bi-instagram"></i></li>
                   <li className='icon'><i class="bi bi-twitter"></i></li>
                 </ul>
-                <button className='rounded  justify-content-center align-items-center d-flex btn '>BUY NOW</button>
+                <button className=' rounded-2 justify-content-center align-items-center d-flex '>BUY NOW</button>
               </div> 
           </div>
        </div>
