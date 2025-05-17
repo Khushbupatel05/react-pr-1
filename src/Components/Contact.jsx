@@ -43,7 +43,7 @@ const Contact = () => {
           </div>
           <div className="col-lg-6 ">
                 <div className='contact-img ps-3' >
-                    <img src="./public/Img/about-6.jpg" alt="" />
+                    <img src="/Img/about-6.jpg" alt="" />
                 </div>
           </div>
         </div>

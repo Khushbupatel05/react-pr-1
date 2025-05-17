@@ -4,32 +4,32 @@ import Latestcard from './Latestcard';
 const Portfolio = () => {
     let arr = [
         {
-            img:"./public/Img/portfolio-1.jpg",
+            img:"/Img/portfolio-1.jpg",
             title: "Development",
             desc: "Getting tickets to the big show"
         },
         {
-            img:"./public/Img/portfolio-2.jpg",
+            img:"/Img/portfolio-2.jpg",
             title: "Development",
             desc: "Getting tickets to the big show"
         },
         {
-            img:"./public/Img/portfolio-3.jpg",
+            img:"/Img/portfolio-3.jpg",
             title: "Development",
             desc: "Getting tickets to the big show"
         },
         {
-            img:"./public/Img/portfolio-4.jpg",
+            img:"/Img/portfolio-4.jpg",
             title: "Development",
             desc: "Getting tickets to the big show"
         },
         {
-            img:"./public/Img/portfolio-3.jpg",
+            img:"/Img/portfolio-3.jpg",
             title: "Development",
             desc: "Getting tickets to the big show"
         },
         {
-            img:"./public/Img/portfolio-4.jpg",
+            img:"/Img/portfolio-4.jpg",
             title: "Development",
             desc: "Getting tickets to the big show"
         },

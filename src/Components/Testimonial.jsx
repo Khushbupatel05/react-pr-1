@@ -16,42 +16,42 @@ const Testimonial = () => {
                     <ul className='text-center my-5 pt-5 d-flex gap-5'>
                         <li>
                             <div className='thmb'>
-                                <img src="./public/Img/testimonial-1.jpg" alt="" />
+                                <img src="/Img/testimonial-1.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img src="./public/Img/testimonial-1.jpg" alt="" />
+                                <img src="/Img/testimonial-1.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img src="./public/Img/testimonial-1.jpg" alt="" />
+                                <img src="/Img/testimonial-1.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img src="./public/Img/testimonial-1.jpg" alt="" />
+                                <img src="/Img/testimonial-1.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img src="./public/Img/testimonial-1.jpg" alt="" />
+                                <img src="/Img/testimonial-1.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img src="./public/Img/testimonial-1.jpg" alt="" />
+                                <img src="/Img/testimonial-1.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img src="./public/Img/testimonial-1.jpg" alt="" />
+                                <img src="/Img/testimonial-1.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img src="./public/Img/testimonial-1.jpg" alt="" />
+                                <img src="/Img/testimonial-1.jpg" alt="" />
                             </div>
                         </li>
                     </ul>
