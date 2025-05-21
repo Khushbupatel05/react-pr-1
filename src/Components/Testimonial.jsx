@@ -13,7 +13,7 @@ const Testimonial = () => {
                     <div className='text-center'>
                         <h6><span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
                     </div>
-                    <ul className='text-center my-5 pt-5 d-flex gap-5'>
+                    <ul className='text-center my-5 pt-5 d-flex gap-5 thmb-img'>
                         <li>
                             <div className='thmb'>
                                 <img src="/Img/testimonial-1.jpg" alt="" />
