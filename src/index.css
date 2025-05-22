@@ -174,7 +174,6 @@ h2 {
 }
 .card-content:hover .card-body p {
   color: #fff !important;
-
 }
 .card-content:hover:before {
   opacity: 1;
