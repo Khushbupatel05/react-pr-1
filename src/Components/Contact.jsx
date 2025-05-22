@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="section my-5">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-12 mb-4">
                 <div className="ps-2 pe-2">
                     <h2 className='contact-title'>Hire Me.</h2>
                     <p className="service-text fs-6">
@@ -41,10 +41,10 @@ const Contact = () => {
                     <button type="submit" className="rounded submit-btn px-4 p-2 ps-4 pe-4">Submit</button>
                 </form>
           </div>
-          <div className="col-lg-6 ">
-                <div className='contact-img ps-3' >
-                    <img src="/Img/about-6.jpg" alt="" />
-                </div>
+          <div className="col-lg-6 col-md-12">
+            <div className="contact-img ps-lg-3 pt-3 pt-lg-0">
+              <img src="/Img/about-6.jpg" alt="" className="img-fluid rounded w-100" />
+            </div>
           </div>
         </div>
       </div>

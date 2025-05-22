@@ -28,8 +28,8 @@ const Header = () => {
               <li className='icon'><i className="bi bi-instagram"></i></li>
               <li className='icon'><i className="bi bi-twitter"></i></li>
             </ul>
-            <button className='rounded-2 justify-content-center align-items-center d-flex btn-custom'>BUY NOW</button>
-            <button className="menubar d-lg-none d-flex p-2">
+            <button className='rounded-2 justify-content-center align-items-center d-flex btn-custom px-3 '>BUY NOW</button>
+            <button className="menubar d-lg-none d-flex ">
               <i className="bi bi-list"></i>
             </button>
           </div>

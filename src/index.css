@@ -40,9 +40,7 @@ header {
   height: 100vh;
 }
 
-.home-content {
-  padding-bottom: 160px;
-}
+
 
 .title-color {
   color: #f9004d;
@@ -123,22 +121,21 @@ h2 {
   width: 100%;
 }
 
-/* Optional Button Styling */
 .btn-custom {
-  border: #717185;
-  color: white;
-  padding: 10px 20px;
+  border: 1px solid #717185;
+  color: black;
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
 .btn-custom:hover {
   background-color: #c30c54;
+  color: #dfdfe4;
 }
 
 .card-content {
   margin-top: 30px;
-  background-color: #f6f6f6;
+  background-color: #f4f2f2;
   padding: 60px 45px;
   position: relative;
   transition: 0.3s all linear;
@@ -189,7 +186,10 @@ h2 {
   margin-bottom: 8px;
 }
 .service-text{
-  color: #9fa0a0;
+  color: #7f8181ef;
+}
+.service-1{
+  background-color: #787274;
 }
 
 .latestcard{
@@ -231,9 +231,82 @@ h3{
 .contact-title{
    font-size: 60px;
 }
-.portfolio-content{
-  min-height: 500px;
+.portfolio-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
 }
+
+.portfolio-thumb img {
+  transition: transform 0.5s ease;
+}
+
+.portfolio-box:hover img {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  
+}
+
+.overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fa1c7146;
+  background-image: linear-gradient(#f6004eb4 10%, #000);
+  opacity: 0;
+  transition: all 0.4s ease;
+ 
+  border-radius: 5px;
+}
+
+.portfolio-item:hover .overlay::before {
+  opacity: 1;
+}
+.viwe-btn{
+  padding: 0 23px;
+    height: 40px;
+    display: inline-block;
+    line-height: 34px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    color: #ffff;
+    background-color: transparent;
+   transition: all 0.4s ease;
+    
+}
+.viwe-btn:hover{
+    border: 2px solid #f9004d;
+    transform: translateY(-3px);
+    color: #fff;
+    background: #f9004d;
+}
+
 .testimonial-detail{
     font-size: 36px;
     line-height: 58px;
@@ -304,18 +377,10 @@ h3{
 .testimonial-bg{
   background-color: #f5f5f7;
 }
-/* .footer-img{
-    background-image: url('/Img/bg-footer.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    position: relative;
-    height: 200px;
-} */
-.footer-img{
-    
+
+.footer-img{  
     background-color: #00010cd8;
-    height: 200px;
+    height: 300px;
 }
 
 .brand-1 {
@@ -358,4 +423,74 @@ h3{
 }
 .thmb-img{
 
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .portfolio {
+        min-height: 500px;
+    }
+}
+
+
+@media (max-width: 992px) {
+  .menu {
+    display: none !important;
+  }
+  .menubar {
+    display: flex !important;
+  }
+}
+
+
+@media (max-width: 767.98px) {
+  .btn-custom {
+    display: none !important;
+  }
+}
+.menubar {
+  background: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 775px) {
+  .title {
+    font-size: 40px; 
+  }
+}
+.partner-img img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+  .brand-1 {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .partner-img {
+    flex-basis: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .partner-img {
+    flex-basis: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .partner-img {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .partner-img img {
+    max-width: 70%;
+    margin: 0 auto;
+  }
 }

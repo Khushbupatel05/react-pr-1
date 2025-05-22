@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card1 = (props) => {
   return (
-    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+    <div className="col-lg-4  col-md-6 col-sm-6 col-12 mb-4">
       <div className="card-content">
         <div className="card-body  rounded">
           <h5 className="card-title fs-1">

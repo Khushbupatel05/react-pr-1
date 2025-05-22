@@ -1,41 +1,36 @@
 import React from 'react'
 
-const Rigthsite = () => {
+ const Rigthsite = () => {
   return (
-    <div className='col-7'>
-      <div className=''>
-          <div className='about-content pt-5 '>
-            <h2>About Me</h2>
-            <p class="description ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered &lt;a href="#"&gt;alteration&lt;/a&gt; in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,</p>
-          </div>
-          <div className=''>
-            <div className="row">
-              <div className="col-lg-12">
-                <ul className='d-flex gap-3 ps-0 fw-bold '>
-                  <li>Main skills</li>
-                  <li>Awards</li>
-                  <li>Experience</li>
-                  <li>Education & Certification</li>
-                </ul>
-                <div>
-                  <ul className='ps-0'>
-                    <li className='data fs-5 '>
-                      User experience design <span className='content'>- UI/UX</span> 
-                      <p className='content'>Delight the user and make it work.</p>
-                    </li>
-                    <li className='data fs-5 '>
-                      Web and user interface design <span className='content'>- Development</span> 
-                      <p className='content'>Websites, web experiences, ...</p>
-                    </li>
-                    <li className='data fs-5 '>
-                      Interaction design<span className='content'>- Animation</span> 
-                      <p className='content'>I like to move it move it.</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div className='col-lg-7  col-sm-12'>
+      <div className='about-content  px-3 px-md-0'>
+        <h2>About Me</h2>
+        <p className="description">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
+          <a href="#" className="text-decoration-underline"> alteration</a> in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
+        </p>
+
+        <ul className='d-flex flex-wrap gap-3 fw-bold list-unstyled'>
+          <li>Main skills</li>
+          <li>Awards</li>
+          <li>Experience</li>
+          <li>Education & Certification</li>
+        </ul>
+
+        <ul className='list-unstyled ps-0'>
+          <li className='data fs-5 mb-3'>
+            User experience design <span className='content'>- UI/UX</span> 
+            <p className='content mb-0'>Delight the user and make it work.</p>
+          </li>
+          <li className='data fs-5 mb-3'>
+            Web and user interface design <span className='content'>- Development</span> 
+            <p className='content mb-0'>Websites, web experiences, ...</p>
+          </li>
+          <li className='data fs-5'>
+            Interaction design <span className='content'>- Animation</span> 
+            <p className='content mb-0'>I like to move it move it.</p>
+          </li>
+        </ul>
       </div>
     </div>
   )
