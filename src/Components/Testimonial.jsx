@@ -13,7 +13,7 @@ const Testimonial = () => {
                     <div className='text-center'>
                         <h6><span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
                     </div>
-                    <ul className='text-center my-5 pt-5 d-flex gap-5 thmb-img'>
+                    <ul className='text-center my-5 pt-5 d-flex gap-4 thmb-img'>
                         <li>
                             <div className='thmb'>
                                 <img className="" src="/Img/testimonial-1.jpg" alt="" />
@@ -21,37 +21,37 @@ const Testimonial = () => {
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img className="" src="/Img/testimonial-1.jpg" alt="" />
+                                <img className="" src="/Img/testimonial-2.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img className="" src="/Img/testimonial-1.jpg" alt="" />
+                                <img className="" src="/Img/testimonial-3.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img className="" src="/Img/testimonial-1.jpg" alt="" />
+                                <img className="" src="/Img/testimonial-4.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img className="" src="/Img/testimonial-1.jpg" alt="" />
+                                <img className="" src="/Img/testimonial-5.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img className="" src="/Img/testimonial-1.jpg" alt="" />
+                                <img className="" src="/Img/testimonial-6.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img className="" src="/Img/testimonial-1.jpg" alt="" />
+                                <img className="" src="/Img/testimonial-7.jpg" alt="" />
                             </div>
                         </li>
                         <li>
                             <div className='thmb'>
-                                <img className="" src="/Img/testimonial-1.jpg" alt="" />
+                                <img className="" src="/Img/testimonial-8.jpg" alt="" />
                             </div>
                         </li>
                     </ul>

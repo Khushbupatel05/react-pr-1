@@ -207,6 +207,38 @@ h3 {
   font-size: 36px;
   font-weight: 500;
 }
+.section-tab {
+  position: relative;
+  padding-bottom: 4px;
+  cursor: pointer;
+  color: #000; 
+  transition: color 0.3s ease-in-out;
+}
+
+.section-tab::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  color: #000;
+  background-color: #f9004d;
+  transition: width 0.4s ease-in-out;
+}
+
+.section-tab:hover::after,
+.section-tab.active-tab::after {
+  width: 100%;
+   color: #f9004d;
+}
+
+.section-tab:hover,
+.section-tab.active-tab {
+  color: #f9004d;
+}
+
+
 
 .counter {
   font-size: 72px;
@@ -412,7 +444,8 @@ h3 {
 
 .footer-img {
   background-color: #00010cd8;
-  height: 300px;
+  height: 250px;
+  text-align: center;
 }
 
 .brand-1 {
