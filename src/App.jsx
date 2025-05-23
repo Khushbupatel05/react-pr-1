@@ -1,4 +1,5 @@
 import About from "./Components/About"
+// import BlogSlider from "./Components/BlogSlider"
 import Contact from "./Components/Contact"
 import Counter from "./Components/Counter"
 import Footer from "./Components/Footer"
@@ -20,11 +21,11 @@ const App = () => {
       <Services />
       <Portfolio/>
       <Counter/>
+      {/* <BlogSlider /> */}
       <Testimonial/>
       <Contact />
       <Partner/>
       <Footer/>
-
     </div>
   )
 }

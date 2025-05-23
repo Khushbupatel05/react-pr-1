@@ -2,8 +2,8 @@ import React from 'react';
 
 const Latestcard = (props) => {
   return (
-    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-      <div className="portfolio-box portfolio-item position-relative overflow-hidden rounded">
+      <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div className="portfolio-box portfolio-item position-relative overflow-hidden rounded">
         <img src={props.img} alt="Project" className="img-fluid w-100 portfolio-image" />
         
         <div className="overlay">

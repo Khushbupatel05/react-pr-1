@@ -7,7 +7,7 @@ import React from 'react'
         <h2>About Me</h2>
         <p className="description">
           There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
-          <a href="#" className="text-decoration-underline"> alteration</a> in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
+           alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
         </p>
 
         <ul className='d-flex flex-wrap gap-3 fw-bold list-unstyled'>
